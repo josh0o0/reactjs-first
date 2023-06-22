@@ -2,7 +2,7 @@ import Counter from './components/Counter';
 import Form from './components/Form';
 import './App.css';
 import { useState,useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { changeTheme } from './actions/themeAction';
 
